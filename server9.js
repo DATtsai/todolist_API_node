@@ -6,14 +6,14 @@ const { v4: uuidv4 } = require('uuid');
 const errorHandle = require('./errorHandle');
 
 const todos = [ // 先放些測試用資料確定回傳正確
-  { 
-    'title': 'item1',
-    'id': uuidv4(),
-  },
-  { 
-    'title': 'item2',
-    'id': uuidv4(),
-  },
+  // { 
+  //   'title': 'item1',
+  //   'id': uuidv4(),
+  // },
+  // { 
+  //   'title': 'item2',
+  //   'id': uuidv4(),
+  // },
 ]; // 暫存在本機記憶體上，之後要改到伺服器DB上
 
 const requestListener = (req, res)=>{ // req為承接client端所發送之內容變數，res為server端要返還的相關方法物件
